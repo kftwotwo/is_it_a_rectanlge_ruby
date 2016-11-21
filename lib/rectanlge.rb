@@ -3,7 +3,8 @@ class Rectangle
     @length = length
     @width = width
   end
+
   define_method(:square?) do
-    false
+    @length.eql?(@width)
   end
 end

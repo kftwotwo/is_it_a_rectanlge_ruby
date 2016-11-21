@@ -1,5 +1,5 @@
 require('rspec')
-require('rectangle')
+require('rectanlge')
 
 describe(Rectangle) do
   describe("#square?") do
